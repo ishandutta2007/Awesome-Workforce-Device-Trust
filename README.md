@@ -39,12 +39,15 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 - **[Fleet](https://github.com/fleetdm/fleet)** [![GitHub stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers) (FleetDM) — The premier open-source device management and device-trust platform. Built on osquery, it provides real-time visibility, policy enforcement, vulnerability detection, MDM capabilities (macOS, Windows, Linux, and more), GitOps workflows, and strong support for zero-trust posture assessment. Self-hostable and highly transparent.
 
 ### Additional Open-Source MDM / Endpoint Tools
+- **[MeshCentral](https://github.com/Ylianst/MeshCentral)** [![GitHub stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers) — Open-source RMM (Remote Monitoring and Management) platform that provides visibility, scripting, and remote management capabilities useful in device-trust workflows.
+- **[TacticalRMM](https://github.com/amidaware/tacticalrmm)** [![GitHub stars](https://img.shields.io/github/stars/amidaware/tacticalrmm?style=social&color=white)](https://github.com/amidaware/tacticalrmm/stargazers) — Remote Monitoring and Management tool built with Django and Vue, useful for managing and monitoring endpoints.
 - Emerging and community open-source MDM projects that support multi-platform enrollment, configuration profiles, and basic device management (including projects aiming for full multi-OS coverage).
-- Open-source RMM (Remote Monitoring and Management) platforms such as MeshCentral and TacticalRMM that provide visibility, scripting, and remote management capabilities useful in device-trust workflows.
 
 ### Zero-Trust Access with Device Posture
-- **Teleport**, **OpenZiti**, **Pomerium**, and similar open-source zero-trust access tools that can incorporate device posture checks as part of access decisions.
-- Policy engines (e.g., Open Policy Agent) that can evaluate device signals alongside identity for fine-grained authorization.
+- **[Teleport](https://github.com/gravitational/teleport)** [![GitHub stars](https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white)](https://github.com/gravitational/teleport/stargazers) — Open-source zero-trust access tool that can incorporate device posture checks as part of access decisions.
+- **[Open Policy Agent](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) — General-purpose policy engine that can evaluate device signals alongside identity for fine-grained authorization.
+- **[Pomerium](https://github.com/pomerium/pomerium)** [![GitHub stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers) — Identity-aware proxy and zero-trust gateway.
+- **[OpenZiti](https://github.com/openziti/ziti)** [![GitHub stars](https://img.shields.io/github/stars/openziti/ziti?style=social&color=white)](https://github.com/openziti/ziti/stargazers) — Zero-trust network overlay and application embedded network for secure access.
 
 ### 🛠️ Typical Open-Source Approach
 1. **Visibility & telemetry** — osquery agents collecting rich endpoint data
