@@ -1,6 +1,4 @@
-# Awesome-Workforce-Device-Trust
-
-# Similar Projects to Workforce Device Trust Platforms
+# Awesome Workforce Device Trust Platforms
 
 **Workforce Device Trust Platforms** continuously assess the security posture and compliance of employee devices (laptops, mobiles, etc.) and use that signal for zero-trust access decisions, conditional access, and endpoint management. Leading commercial solutions include Kolide, Kandji, JumpCloud Device Trust, Microsoft Intune, Cisco Duo Device Trust, Jamf Protect, Workspace ONE, Uptycs Device Trust, Tanium, and Scalefusion.
 
