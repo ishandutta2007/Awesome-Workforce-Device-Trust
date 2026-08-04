@@ -1,4 +1,16 @@
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Workforce Device Trust Banner" />
+</div>
+
+<meta name="description" content="A curated list of awesome workforce device trust platforms, zero-trust endpoint security solutions, open-source MDM tools, and posture management frameworks.">
+<meta name="keywords" content="device trust, zero trust, MDM, osquery, endpoint security, conditional access, fleetdm, kolide">
+
 # Awesome Workforce Device Trust Platforms
+
+<div align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a> <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
 
 **Workforce Device Trust Platforms** continuously assess the security posture and compliance of employee devices (laptops, mobiles, etc.) and use that signal for zero-trust access decisions, conditional access, and endpoint management. Leading commercial solutions include Kolide, Kandji, JumpCloud Device Trust, Microsoft Intune, Cisco Duo Device Trust, Jamf Protect, Workspace ONE, Uptycs Device Trust, Tanium, and Scalefusion.
 
@@ -6,13 +18,23 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🏢 SaaS / Hosted Platforms
 
-- **[Kolide](https://www.kolide.com/)** — Device trust and compliance platform focused on user-friendly posture checks and remediation guidance (especially strong on macOS/Linux visibility).
-- **[Kandji](https://www.kandji.io/)** — Modern Apple-focused device management and security platform.
-- **[JumpCloud Device Trust](https://jumpcloud.com/)**, **[Microsoft Intune](https://www.microsoft.com/en-us/security/business/microsoft-intune)**, **[Cisco Duo Device Trust](https://duo.com/)**, **[Jamf Protect](https://www.jamf.com/)**, **[Workspace ONE](https://www.omnissa.com/)**, **[Uptycs](https://www.uptycs.com/)**, **[Tanium](https://www.tanium.com/)**, **[Scalefusion](https://scalefusion.com/)** — Enterprise device management, endpoint security, and device-trust / conditional-access solutions.
+| Product | Description | Pricing | Free Tier Limit |
+|---|---|---|---|
+| **[Kolide](https://www.kolide.com/)** | Device trust and compliance platform focused on user-friendly posture checks and remediation guidance (especially strong on macOS/Linux visibility). | ~$6/device/month | No free tier |
+| **[Kandji](https://www.kandji.io/)** | Modern Apple-focused device management and security platform. | Custom Pricing | No free tier |
+| **[JumpCloud Device Trust](https://jumpcloud.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | Custom Pricing | No free tier (legacy: 10 users/devices) |
+| **[Microsoft Intune](https://www.microsoft.com/en-us/security/business/microsoft-intune)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | ~$8/user/month (Included in M365) | No free tier |
+| **[Cisco Duo Device Trust](https://duo.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | ~$3 - $9/user/month | Up to 10 users |
+| **[Jamf Protect](https://www.jamf.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | Custom Pricing | No free tier |
+| **[Workspace ONE](https://www.omnissa.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | Custom Pricing | No free tier |
+| **[Uptycs](https://www.uptycs.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | Custom Pricing | No free tier |
+| **[Tanium](https://www.tanium.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | Custom Pricing | No free tier |
+| **[Scalefusion](https://scalefusion.com/)** | Enterprise device management, endpoint security, and device-trust / conditional-access solutions. | ~$2 - $4/device/month | 14-day free trial only |
+
 
 ## 🔓 Open-Source Software
 
-### Leading Open-Source Device Management & Posture
+### 🌟 Leading Open-Source Device Management & Posture
 - **[Fleet](https://github.com/fleetdm/fleet)** (FleetDM) — The premier open-source device management and device-trust platform. Built on osquery, it provides real-time visibility, policy enforcement, vulnerability detection, MDM capabilities (macOS, Windows, Linux, and more), GitOps workflows, and strong support for zero-trust posture assessment. Self-hostable and highly transparent.
 - **[osquery](https://github.com/osquery/osquery)** — Foundational open-source endpoint instrumentation framework that exposes operating-system data as a high-performance relational database. Powers Fleet and many commercial device-trust solutions; excellent for custom posture queries and compliance checks.
 
@@ -24,7 +46,7 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 - **Teleport**, **OpenZiti**, **Pomerium**, and similar open-source zero-trust access tools that can incorporate device posture checks as part of access decisions.
 - Policy engines (e.g., Open Policy Agent) that can evaluate device signals alongside identity for fine-grained authorization.
 
-### Typical Open-Source Approach
+### 🛠️ Typical Open-Source Approach
 1. **Visibility & telemetry** — osquery agents collecting rich endpoint data
 2. **Control plane** — Fleet for querying, policy, MDM actions, and compliance reporting
 3. **Access enforcement** — Integrate posture results into an identity-aware proxy or zero-trust gateway (Teleport, Pomerium, etc.)
@@ -43,3 +65,15 @@ Prefer actively maintained open-source projects related to device trust, endpoin
 This list is public domain / CC0. Feel free to copy into your own awesome list or README.
 
 Star the projects you find useful — open device-trust tools help organizations verify endpoints without black boxes! 🔐
+
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Workforce-Device-Trust&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Workforce-Device-Trust&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Workforce-Device-Trust&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Workforce-Device-Trust&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
