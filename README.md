@@ -35,8 +35,8 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 ## 🔓 Open-Source Software
 
 ### 🌟 Leading Open-Source Device Management & Posture
-- **[Fleet](https://github.com/fleetdm/fleet)** (FleetDM) — The premier open-source device management and device-trust platform. Built on osquery, it provides real-time visibility, policy enforcement, vulnerability detection, MDM capabilities (macOS, Windows, Linux, and more), GitOps workflows, and strong support for zero-trust posture assessment. Self-hostable and highly transparent.
-- **[osquery](https://github.com/osquery/osquery)** — Foundational open-source endpoint instrumentation framework that exposes operating-system data as a high-performance relational database. Powers Fleet and many commercial device-trust solutions; excellent for custom posture queries and compliance checks.
+- **[osquery](https://github.com/osquery/osquery)** [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers) — Foundational open-source endpoint instrumentation framework that exposes operating-system data as a high-performance relational database. Powers Fleet and many commercial device-trust solutions; excellent for custom posture queries and compliance checks.
+- **[Fleet](https://github.com/fleetdm/fleet)** [![GitHub stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers) (FleetDM) — The premier open-source device management and device-trust platform. Built on osquery, it provides real-time visibility, policy enforcement, vulnerability detection, MDM capabilities (macOS, Windows, Linux, and more), GitOps workflows, and strong support for zero-trust posture assessment. Self-hostable and highly transparent.
 
 ### Additional Open-Source MDM / Endpoint Tools
 - Emerging and community open-source MDM projects that support multi-platform enrollment, configuration profiles, and basic device management (including projects aiming for full multi-OS coverage).
